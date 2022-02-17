@@ -1,0 +1,28 @@
+.Home{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+  
+.Home img{
+    height: 50vh;
+}
+  
+.Text{
+    background: rgba(255,255,255, 0.2);
+    backdrop-filter: blur(5px);
+    border: solid 2px transparent;
+    border-radius: 15px;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.3);
+    /* height: 25vh; */
+    margin: 2em;
+    padding: 2em;
+    text-align: center;
+    width: 500px;
+}

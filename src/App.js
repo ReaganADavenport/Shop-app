@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React from 'react'
+
 import './App.css';
 
+import logo from './Images/Wisteria-logo.png';
+import Home from './Components/Home/home'
+
+
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return(
+    <div className="Body">
+        <div className='Nav'>
+          <img className='logo' src={logo}></img>  
+        </div>
+
+        <Home></Home>
+        <div className='Shop'>
+          <h2>This is the shop</h2>
+        </div>
     </div>
-  );
+)
 }
 
 export default App;
