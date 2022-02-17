@@ -4,6 +4,7 @@ import './App.css';
 
 import Header from './Components/Header/header';
 import Home from './Components/Home/home';
+import Shop from './Components/Store-front/shop';
 
 
 
@@ -13,9 +14,8 @@ function App() {
         
         <Header></Header>
         <Home></Home>
-        <div className='Shop'>
-          <h2>This is the shop</h2>
-        </div>
+        <Shop></Shop>
+        
     </div>
 )
 }
