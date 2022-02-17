@@ -8,17 +8,7 @@
 
 }
 
-.Nav{
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(5px);
-  border: solid 2px transparent;
-  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.3);
 
-}
-
-.Nav img{
-  height: 10vh;
-}
 
 .Shop{
   width: 100vw;
