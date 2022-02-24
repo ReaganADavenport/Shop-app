@@ -1,9 +1,8 @@
 .Body{
   background-image: linear-gradient( #F2E5CC, #EECB93);
-  /* background-image: url('./Images/stucco.png'); */
   color: black;
   font-family: 'Vesper Libre', serif;
   margin: 0;
   padding: 0;
-
+  width: 100%;
 }

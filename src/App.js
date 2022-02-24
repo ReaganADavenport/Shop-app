@@ -11,11 +11,9 @@ import Shop from './Components/Store-front/shop';
 function App() {
   return(
     <div className="Body">
-        
         <Header></Header>
-        <Home></Home>
+        <Home></Home> 
         <Shop></Shop>
-        
     </div>
 )
 }
