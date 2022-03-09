@@ -1,25 +1,26 @@
 import React,{Component} from 'react';
 import './card.css';
 
-import Balloon from '../../Images/Balloon-flowers.png';
 
-const Card = () => {
+
+class Card extends Component {
+
+  render(){
+    const { itemImage, itemName, itemPrice } = this.props;
+    
     return(
         <div className="Card">
     
-            <img className='Item-image' src={Balloon}></img>
+            <img className='Item-image' src={itemImage}></img>
           
 
-          <div className='Item-Name'>
-            <h2>Balloon Flowers</h2>
-          </div>
+          <h2>{itemName}</h2>
 
-          <div className='Item-Price'>
-            <h3>$15.99</h3>
-          </div>
+          <h3>{itemPrice}</h3>
 
         </div>
     )
+  }
 }
 
 export default Card;
