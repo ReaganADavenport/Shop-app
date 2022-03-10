@@ -11,8 +11,7 @@ class Card extends Component {
     return(
         <div className="Card">
     
-            <img className='Item-image' src={itemImage}></img>
-          
+          <img className='Item-image' src={itemImage}></img>
 
           <h2>{itemName}</h2>
 
