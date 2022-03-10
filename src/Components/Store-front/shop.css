@@ -1,12 +1,12 @@
 .Shop{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     padding: 10px;
   }
 
 .Shelf{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }

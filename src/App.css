@@ -1,6 +1,7 @@
 .Body{
   background-image: url("./Images/leaf.png");
   background-size: cover;
+  /* background-repeat: repeat; */
   color: black;
   font-family: 'Vesper Libre', serif;
   margin: 0;
