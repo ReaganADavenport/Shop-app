@@ -6,7 +6,7 @@
 
 .Shelf{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
