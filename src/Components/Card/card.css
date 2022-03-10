@@ -15,5 +15,6 @@
 
 .Item-image{
     border-radius: 15px;
+    height: 250px; 
     width: 150px;
 }
