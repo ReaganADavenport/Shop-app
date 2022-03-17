@@ -3,6 +3,8 @@
     backdrop-filter: blur(5px);
     border: solid 2px transparent;
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.3);
+    display: flex;
+    justify-content: space-between;
     width: 100vw;
 }
   
