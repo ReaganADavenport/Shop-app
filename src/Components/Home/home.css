@@ -11,6 +11,7 @@
   
 .flower-left{
     height: 50vh;
+    width: 60px;
 }
   
 .Text{
@@ -24,5 +25,12 @@
     margin: 2em;
     padding: 2em;
     text-align: center;
-    width: 500px;
+    /* width: 500px; */
+}
+
+@media only screen and (min-width: 600px){
+    .flower-left{
+        height: 50vh;
+        width: auto;
+    }
 }
