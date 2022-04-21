@@ -19,9 +19,10 @@ function App() {
     console.log(cart.length);
     alert(`Added ${item.title} to Cart`);
   }
+  
   return(
     <div className="Body">
-      <Header cart={cart} setCart={setCart}></Header>
+      <Header size={cart.length}></Header>
       <Home></Home> 
       <Shop handleClick={handleClick}></Shop>
       <Cart></Cart>
