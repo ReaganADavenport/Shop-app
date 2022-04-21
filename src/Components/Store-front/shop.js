@@ -2,23 +2,20 @@ import React,{Component} from 'react';
 import './shop.css';
 
 import Card from '../Card/card';
+import data from '../../data';
 
-import Balloon from '../../Images/Balloon-flowers.png';
-import Pansy from '../../Images/Pansies.jpg';
-import Lotus from '../../Images/Lotus.png';
-import Peony from '../../Images/Peony.png';
-import Snap from '../../Images/Snap-dragon.png';
 
 const Shop = () => {
+  console.warn(data.productData);
     return(
         <div className='Shop'>
         <h2>Shop</h2>
         <div className='Shelf'>
-          <Card itemImage={Balloon} itemName={'Balloon Flowers'} itemPrice={'$15.99'}></Card>
-          <Card itemImage={Pansy} itemName={'Pansies'} itemPrice={'$12.99'}></Card>
-          <Card itemImage={Lotus} itemName={'Lotus Flowers'} itemPrice={'$25.99'}></Card>
-          <Card itemImage={Peony} itemName={'Peonies'} itemPrice={'$14.99'}></Card>
-          <Card itemImage={Snap} itemName={'Snap-dragons'} itemPrice={'$13.99'}></Card>
+          {data.productData.map((item, index) => {
+              return(
+                <Card itemImage={item.img} itemName={item.title} itemPrice={item.price} key={index}></Card>
+              )
+          })}
         </div>
         
       </div>
