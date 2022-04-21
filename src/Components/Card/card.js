@@ -5,7 +5,8 @@ import './card.css';
 
 class Card extends Component {
   render(){
-    const { itemImage, itemName, itemPrice } = this.props;
+    const { itemImage, itemName, itemPrice, handleClick, item} = this.props;
+    
 
     function addedToCart(){
       alert(`Added ${itemName} to Cart`)
@@ -22,7 +23,7 @@ class Card extends Component {
            <h3>{itemPrice}</h3>
 
 
-            <button type='button' onClick={addedToCart}>Add to cart</button>
+            <button type='button' onClick={() => handleClick(item)}>Add to cart</button>
           </div>
 
         </div>
