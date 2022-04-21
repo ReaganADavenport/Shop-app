@@ -7,11 +7,6 @@ class Card extends Component {
   render(){
     const { itemImage, itemName, itemPrice, handleClick, item} = this.props;
     
-
-    function addedToCart(){
-      alert(`Added ${itemName} to Cart`)
-    }
-    
     return(
         <div className="Card">
     
