@@ -13,7 +13,13 @@ const Shop = () => {
         <div className='Shelf'>
           {data.productData.map((item, index) => {
               return(
-                <Card itemImage={item.img} itemName={item.title} itemPrice={item.price} key={index}></Card>
+                <Card 
+                  itemImage={item.img} 
+                  itemName={item.title} 
+                  itemPrice={item.price} 
+                  item={item} 
+                  key={index}>
+                </Card>
               )
           })}
         </div>

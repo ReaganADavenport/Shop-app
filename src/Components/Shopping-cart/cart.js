@@ -3,24 +3,16 @@ import './cart.css';
 
 
 
-class Cart extends Component {
-  render(){
-    const { 
-        isEmpty,
-        items,
-        removeItem 
-    } = this.props;
-
-    function addToCart(){
-       //
-    }
-    
-    if (isEmpty) return <p>Your Cart is Empty</p>;
-
-    return(
-       <div></div>
-    )
+const Cart = () => {
+  
+  const addToCart = () => {
+    //something should go here
   }
-}
 
-export default Card;
+  return(
+     <div>
+     </div>
+  );
+};
+
+export default Cart;
