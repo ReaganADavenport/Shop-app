@@ -9,7 +9,13 @@ const Header = () => {
     return(
         <div className='Nav'>
             <img className='logo' src={logo}></img>
-            <img className='cart' src={cart}></img>
+            <div className='cart'>
+             <span>
+                <img src={cart}></img>
+                </span>
+                <span>0</span>
+            </div>
+            
       </div>
     )
 };

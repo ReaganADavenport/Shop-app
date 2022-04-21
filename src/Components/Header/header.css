@@ -11,3 +11,23 @@
 .Nav img{
     height: 10vh;
 }
+
+.cart{
+    cursor: pointer;
+}
+
+.cart span:nth-child(1){
+    font-size: 2rem;
+    color: white;
+}
+
+.cart span:nth-child(2){
+    padding: 0 3px;
+    background-color: #5C3996;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    top: -50px;
+    left: -15px;
+}
