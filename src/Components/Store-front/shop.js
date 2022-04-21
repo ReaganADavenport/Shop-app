@@ -9,7 +9,10 @@ const Shop = () => {
   const [cart, setCart] = useState([]);
 
   const handleClick = (item) => {
-    console.log(item);
+    setCart([...cart,item]);
+    cart.push(item);
+    console.log(cart);
+    console.log(cart.length);
     alert(`Added ${item.title} to Cart`);
   }
 

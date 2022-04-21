@@ -1,23 +1,28 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
 import './header.css'
 
 import logo from '../../Images/Wisteria-logo.png';
-import cart from '../../Images/shopping-cart.png';
+import shopping_cart from '../../Images/shopping-cart.png';
 
-const Header = () => {
+class Header extends Component {
+    render(){
+        const { cart } = this.props;
+
+
     return(
         <div className='Nav'>
             <img className='logo' src={logo}></img>
             <div className='cart'>
              <span>
-                <img src={cart}></img>
+                <img src={shopping_cart}></img>
                 </span>
-                <span>0</span>
+                <span>{cart.length}</span>
             </div>
             
       </div>
     )
-};
+    };
+}
+    
 
 export default Header;
