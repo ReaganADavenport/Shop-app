@@ -13,19 +13,26 @@ function App() {
   const [cart, setCart] = useState([]);
 
   const handleClick = (item) => {
+    if (cart.indexOf(item) !== -1) return;
     setCart([...cart,item]);
-    cart.push(item);
-    console.log(cart);
-    console.log(cart.length);
     alert(`Added ${item.title} to Cart`);
   }
-  
+
+  const handleChange = (item, d) => {
+    const ind = cart.indexOf(item);
+    const arr = cart;
+    arr[ind].amount += d;
+
+    if (arr[ind].amount === 0) arr[ind].amount = 1;
+    setCart([...arr]);
+  };
+
   return(
     <div className="Body">
       <Header size={cart.length}></Header>
       <Home></Home> 
       <Shop handleClick={handleClick}></Shop>
-      <Cart></Cart>
+      <Cart cart={cart} setCart={setCart} handleChange={handleChange}></Cart>
     </div>
 )
 }

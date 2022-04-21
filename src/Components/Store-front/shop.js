@@ -5,16 +5,7 @@ import Card from '../Card/card';
 import data from '../../data';
 
 
-const Shop = () => {
-  const [cart, setCart] = useState([]);
-
-  const handleClick = (item) => {
-    setCart([...cart,item]);
-    cart.push(item);
-    console.log(cart);
-    console.log(cart.length);
-    alert(`Added ${item.title} to Cart`);
-  }
+const Shop = ({handleClick}) => {
 
     return(
         <div className='Shop'>
