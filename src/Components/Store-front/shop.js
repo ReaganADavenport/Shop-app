@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './shop.css';
 
 import Card from '../Card/card';
@@ -15,12 +15,17 @@ const Shop = ({handleClick}) => {
           {data.productData.map((item, index) => {
               return(
                 <Card 
-                  itemImage={item.img} itemName={item.title} itemPrice={item.price} item={item} key={index} handleClick={handleClick}>
+                  itemImage={item.img} 
+                  itemName={item.title} 
+                  itemPrice={item.price} 
+                  item={item} 
+                  key={index} 
+                  handleClick={handleClick}>
                 </Card>
               )
           })}
         </div>
-        
+
       </div>
     )
 }

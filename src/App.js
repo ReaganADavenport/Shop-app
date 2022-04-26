@@ -11,12 +11,16 @@ import Cart from './Components/Shopping-cart/cart';
 
 function App() {
   const [cart, setCart] = useState([]);
+  /*
+    handleClick will take the item that got clicked, 
+    add it to the cart with setCart function, 
+    and then send an alert to the user letting them know it was added
+  */
 
   const handleClick = (item) => {
-    // if (cart.indexOf(item) !== -1) return;
+    // if (cart.indexOf(item) !== -1) return;  // <- this line is for adding an item to the cart once
     setCart([...cart,item]);
     alert(`Added ${item.title} to Cart`);
-    console.log(cart);
   }
 
   // const handleChange = (item, d) => {
