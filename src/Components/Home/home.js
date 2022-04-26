@@ -13,7 +13,9 @@ const Home = () => {
           <div className='Text'>
             <h1>Fujiwara Florists</h1>
             <p>Only the highest quality flowers</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>"In a world of grief and pain, flowers bloom - even then.</p>
+            <p>Kobayashi Issa</p>
+            <p>1763 - 1828</p>
           </div>
           
           <img className='flower-left' src={flower_right}></img>
