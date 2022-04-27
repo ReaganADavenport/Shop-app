@@ -37,7 +37,7 @@ function App() {
       <Header size={cart.length}></Header>
       <Home></Home> 
       <Shop handleClick={handleClick}></Shop>
-      <Cart cart={cart} setCart={setCart}  ></Cart>
+      {/* <Cart cart={cart} setCart={setCart}  ></Cart> */}
     </div>
 )
 }
