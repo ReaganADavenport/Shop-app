@@ -10,10 +10,10 @@ const Header = ({ size }) => {
         <div className='Nav'>
             <img className='logo' src={logo}></img>
             <div className='cart'>
-             <span>
+             <div>
                 <img src={shopping_cart}></img>
-                </span>
-                <span>{size}</span>
+                </div>
+                <div className='badge'>{size}</div>
             </div>
             
       </div>
