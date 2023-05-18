@@ -1,3 +1,21 @@
+# Shop App
+
+This is a React web app that was meant as an experiment. The goals of which were:
+
+1. make a clean user-friendly single page e-commerce experience
+2. make a shopping cart in the navigation bar that would count the items in the cart
+
+Both of which were successful!
+
+Here is a link to an article where I wrote about how to make a dynamic shopping cart: https://blog.devgenius.io/how-to-create-a-shopping-cart-with-a-badge-34ec6dafe40f
+
+Here are somescreenshots of what it looks like:
+
+<img src="src/Images/shop1.png" alt="Home section">
+<img src="src/Images/shop2.png" alt="Home section">
+<img src="src/Images/shop3.png" alt="Home section">
+<img src="src/Images/shop4.png" alt="Home section">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
