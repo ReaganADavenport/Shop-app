@@ -12,9 +12,9 @@ Here is a link to an article where I wrote about how to make a dynamic shopping 
 Here are somescreenshots of what it looks like:
 
 <img src="src/Images/shop1.png" alt="Home section">
-<img src="src/Images/shop2.png" alt="Home section">
-<img src="src/Images/shop3.png" alt="Home section">
-<img src="src/Images/shop4.png" alt="Home section">
+<img src="src/Images/shop2.png" alt="Shop section">
+<img src="src/Images/shop3.png" alt="Add to Cart alert">
+<img src="src/Images/shop4.png" alt="dynamic cart">
 
 # Getting Started with Create React App
 
